@@ -1,0 +1,6 @@
+framework module Pods_navigatAR {
+  umbrella header "Pods-navigatAR-umbrella.h"
+
+  export *
+  module * { export * }
+}

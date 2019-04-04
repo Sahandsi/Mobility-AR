@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>442934843184-bq8mk50kavt46hu5bbq3mgfoslgo1k83.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.442934843184-bq8mk50kavt46hu5bbq3mgfoslgo1k83</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBn61xQC6whld7U2xTI99w6qST_wpiM9cY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>442934843184</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>club.micdsprogramming.navigatAR</string>
+	<key>PROJECT_ID</key>
+	<string>mobility-ar</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mobility-ar.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:442934843184:ios:3f0f659ee5adbcc1</string>
+	<key>DATABASE_URL</key>
+	<string>https://mobility-ar.firebaseio.com</string>
+</dict>
+</plist>

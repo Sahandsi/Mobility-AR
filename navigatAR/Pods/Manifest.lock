@@ -1,0 +1,102 @@
+PODS:
+  - CodableFirebase (0.0.7)
+  - Eureka (4.0.1)
+  - Firebase/Auth (4.9.0):
+    - Firebase/Core
+    - FirebaseAuth (= 4.4.3)
+  - Firebase/Core (4.9.0):
+    - FirebaseAnalytics (= 4.0.9)
+    - FirebaseCore (= 4.0.15)
+  - Firebase/Database (4.9.0):
+    - Firebase/Core
+    - FirebaseDatabase (= 4.1.4)
+  - FirebaseAnalytics (4.0.9):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - nanopb (~> 0.3)
+  - FirebaseAuth (4.4.3):
+    - FirebaseAnalytics (~> 4.0)
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (4.0.15):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseDatabase (4.1.4):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - leveldb-library (~> 1.18)
+  - FirebaseInstanceID (2.0.9):
+    - FirebaseCore (~> 4.0)
+  - FuzzyMatchingSwift (0.7.0)
+  - GoogleToolboxForMac/DebugUtils (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleToolboxForMac/Defines (2.1.3)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.3)":
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.1.3)":
+    - GoogleToolboxForMac/DebugUtils (= 2.1.3)
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.1.3)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.1.3)"
+  - GTMSessionFetcher/Core (1.1.13)
+  - HCKalmanFilter (1.2.1):
+    - Surge (~> 2.0.0)
+  - IndoorAtlas (2.6.0)
+  - leveldb-library (1.20)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - Surge (2.0.0)
+
+DEPENDENCIES:
+  - CodableFirebase
+  - Eureka
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Database
+  - FuzzyMatchingSwift
+  - HCKalmanFilter
+  - IndoorAtlas
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CodableFirebase
+    - Eureka
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseDatabase
+    - FirebaseInstanceID
+    - FuzzyMatchingSwift
+    - GoogleToolboxForMac
+    - GTMSessionFetcher
+    - HCKalmanFilter
+    - IndoorAtlas
+    - leveldb-library
+    - nanopb
+    - Surge
+
+SPEC CHECKSUMS:
+  CodableFirebase: 090c5b4c9ad67c9f4fddc3b00d168ec38cad3b14
+  Eureka: c8bd5cc07143b6f66268c208d28a246c99b41955
+  Firebase: 632216af3ed7f31e3be34776947fdc7546cfb572
+  FirebaseAnalytics: 388b630c15713f5dbf364071f5f3d6077fb52f4e
+  FirebaseAuth: aaaf68d5064a6c8fec435758f83a43b8db26ccaa
+  FirebaseCore: 3bd047463058fa6b5d312c97502c52e45401cdfb
+  FirebaseDatabase: de4446507ccd3257fca37d16f40e1540324571fd
+  FirebaseInstanceID: d2058a35e9bebda1b6dd42486b84917bde552a9d
+  FuzzyMatchingSwift: bcbeda92c3d16dc338b4bfa655d5848d66b884dd
+  GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
+  GTMSessionFetcher: 5bb1eae636127de695590f50e7d248483eb891e6
+  HCKalmanFilter: e44b0885101e68f5e1ffefa29efab12c65c301d6
+  IndoorAtlas: 96d794362e397d018d33a7922386fe8b87f6310b
+  leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  Surge: 1f0286bc5f0fe4283f3455479895bf85c7ef7760
+
+PODFILE CHECKSUM: 14ff85ae054a6149209cb42ec873694614fe9d43
+
+COCOAPODS: 1.7.0.beta.3
