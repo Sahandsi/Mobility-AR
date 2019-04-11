@@ -1,10 +1,4 @@
-//
-//  FirebaseArray.swift
-//  navigatAR
-//
-//  Created by Nick Clifford on 2/14/18.
-//  Copyright © 2018 MICDS Programming. All rights reserved.
-//
+
 
 struct FirebaseArray<T: Hashable & Codable> {
 	typealias ArrayType = [T]

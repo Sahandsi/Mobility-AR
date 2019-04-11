@@ -1,10 +1,4 @@
-//
-//  UserInfoViewController.swift
-//  navigatAR
-//
-//  Created by Jack Cai on 2/19/18.
-//  Copyright © 2018 MICDS Programming. All rights reserved.
-//
+
 
 import CodableFirebase
 import Firebase
@@ -41,6 +35,7 @@ class UserInfoViewController: UIViewControllerWithBuilding, UITableViewDataSourc
 		ref = Database.database().reference()
 		authListenerHandle = Auth.auth().addStateDidChangeListener { (auth, user) in
 			if let _ = user {
+                
 				self.emailLabel.text = "Email: " + user!.email!
 				self.userHandle = self.ref.child("users/\(user!.uid)").observe(.value, with: { snapshot in
 					guard !(snapshot.value! is NSNull) else { return }

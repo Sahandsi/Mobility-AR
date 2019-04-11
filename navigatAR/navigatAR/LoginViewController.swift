@@ -1,10 +1,4 @@
-//
-//  LoginViewController.swift
-//  navigatAR
-//
-//  Created by Nick Clifford on 2/16/18.
-//  Copyright © 2018 MICDS Programming. All rights reserved.
-//
+
 
 import CodableFirebase
 import Firebase
@@ -17,7 +11,7 @@ class LoginViewController: FormViewController {
 		form +++ Section("Login")
 			<<< EmailRow("email") { row in
 				row.title = "Email"
-				row.placeholder = "bob@example.com"
+				row.placeholder = "jobs@example.com"
 			}
 			<<< PasswordRow("password") { row in
 				row.title = "Password"

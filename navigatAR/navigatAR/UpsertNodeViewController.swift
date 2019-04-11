@@ -1,10 +1,4 @@
-//
-//  UpsertNodeViewController.swift
-//  navigatAR
-//
-//  Created by Michael Gira on 2/3/18.
-//  Copyright © 2018 MICDS Programming. All rights reserved.
-//
+
 
 import CodableFirebase
 import Eureka
@@ -18,7 +12,6 @@ class UpsertNodeViewController: FormViewController {
 		r.value = locationData != nil
 		r.reload()
 	}
-	
 	let nodeTypes: [(display: String, value: NodeType)] = [(
 		display: "Pathway",
 		value: .pathway
@@ -30,14 +23,20 @@ class UpsertNodeViewController: FormViewController {
 		value: .printer
 	), (
 		display: "Water Fountain",
-		value: .fountain
+		value: .waterFountain
 	), (
 		display: "Room",
 		value: .room
 	), (
-		display: "Sports Venue",
-		value: .sportsVenue
-	), (
+		display: "Cafe",
+		value: .cafe
+    ), (
+        display: "Elevator",
+        value: .elevator
+    ),(
+        display: "Door",
+        value: .door
+    ), (
 		display: "Point of Interest",
 		value: .pointOfInterest
 	)]
@@ -54,9 +53,9 @@ class UpsertNodeViewController: FormViewController {
 
 		form +++ Section("Name")
 			<<< TextRow("name") {
-				$0.value = "Presentation Stage"
+				$0.value = "Type the node name"
 				$0.title = "Name"
-				$0.placeholder = "Ex. STEM 252"
+				$0.placeholder = "Ex. Cantor 252"
 			}
 	
 		+++ SelectableSection<ListCheckRow<String>>("Node Type", selectionType: .singleSelection(enableDeselection: true))

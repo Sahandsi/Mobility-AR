@@ -1,10 +1,4 @@
-//
-//  NewBuildingViewController.swift
-//  navigatAR
-//
-//  Created by Migala, Alex on 2/15/18.
-//  Copyright © 2018 MICDS Programming. All rights reserved.
-//
+
 
 import Foundation
 import Eureka
@@ -22,7 +16,7 @@ class NewBuildingViewController: FormViewController {
 			<<< TextRow("buildingname") { row in
 				row.title = "Name"
 				row.placeholder = "Building Name"
-				row.value = "WWT"
+				row.value = "Cantor"
 			}
 			
 			+++ MultivaluedSection(multivaluedOptions: .Insert, header: "Add Floors") { sec in

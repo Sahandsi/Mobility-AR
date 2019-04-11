@@ -48,6 +48,12 @@
 		B43EACAE20389978000E11B5 /* NewEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43EACAD20389978000E11B5 /* NewEventViewController.swift */; };
 		B43EACB020389C25000E11B5 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43EACAF20389C25000E11B5 /* Event.swift */; };
 		B4B6464C20312E3900BAA571 /* DestinationSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B6464B20312E3900BAA571 /* DestinationSelectionController.swift */; };
+		D8089DE0225AA2A8008966EE /* navigate.png in Resources */ = {isa = PBXBuildFile; fileRef = D8089DDF225AA2A8008966EE /* navigate.png */; };
+		D8089DE2225AA32D008966EE /* user1.png in Resources */ = {isa = PBXBuildFile; fileRef = D8089DE1225AA32D008966EE /* user1.png */; };
+		D8089DE4225AA334008966EE /* user2.png in Resources */ = {isa = PBXBuildFile; fileRef = D8089DE3225AA334008966EE /* user2.png */; };
+		D83747AC2256A81500A39CC0 /* reg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D83747AB2256A81500A39CC0 /* reg.jpg */; };
+		D83747B02257807100A39CC0 /* lunch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D83747AF2257807000A39CC0 /* lunch.jpg */; };
+		D83747B22257854E00A39CC0 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = D83747B12257854E00A39CC0 /* splash.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,6 +101,12 @@
 		B43EACAD20389978000E11B5 /* NewEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEventViewController.swift; sourceTree = "<group>"; };
 		B43EACAF20389C25000E11B5 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		B4B6464B20312E3900BAA571 /* DestinationSelectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSelectionController.swift; sourceTree = "<group>"; };
+		D8089DDF225AA2A8008966EE /* navigate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = navigate.png; path = ../../../../Desktop/navigate.png; sourceTree = "<group>"; };
+		D8089DE1225AA32D008966EE /* user1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user1.png; path = ../../../../Desktop/user1.png; sourceTree = "<group>"; };
+		D8089DE3225AA334008966EE /* user2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user2.png; path = ../../../../Desktop/user2.png; sourceTree = "<group>"; };
+		D83747AB2256A81500A39CC0 /* reg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = reg.jpg; path = ../../../../Desktop/reg.jpg; sourceTree = "<group>"; };
+		D83747AF2257807000A39CC0 /* lunch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lunch.jpg; path = ../../../../Desktop/lunch.jpg; sourceTree = "<group>"; };
+		D83747B12257854E00A39CC0 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash.png; path = "../../../../Desktop/Final Year/splash.png"; sourceTree = "<group>"; };
 		DEAAEDCA81AD21BBBF3786A2 /* Pods-navigatAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-navigatAR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-navigatAR/Pods-navigatAR.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -163,6 +175,12 @@
 				5690CC242022ECA400F298EE /* art.scnassets */,
 				56F25B952022E79800B246D3 /* LaunchScreen.storyboard */,
 				56F25B982022E79800B246D3 /* Info.plist */,
+				D83747B12257854E00A39CC0 /* splash.png */,
+				D83747AB2256A81500A39CC0 /* reg.jpg */,
+				D83747AF2257807000A39CC0 /* lunch.jpg */,
+				D8089DDF225AA2A8008966EE /* navigate.png */,
+				D8089DE1225AA32D008966EE /* user1.png */,
+				D8089DE3225AA334008966EE /* user2.png */,
 				26AE44D42025934800F8C75D /* config.example.plist */,
 				26AE44D62025936700F8C75D /* config.plist */,
 				1C7373102026302D00725F6D /* Utils.swift */,
@@ -255,13 +273,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8089DE2225AA32D008966EE /* user1.png in Resources */,
 				26AE44D72025936700F8C75D /* config.plist in Resources */,
 				26AE44D52025934800F8C75D /* config.example.plist in Resources */,
 				56F25B972022E79800B246D3 /* LaunchScreen.storyboard in Resources */,
 				5690CC252022ECA400F298EE /* art.scnassets in Resources */,
+				D83747B22257854E00A39CC0 /* splash.png in Resources */,
+				D83747AC2256A81500A39CC0 /* reg.jpg in Resources */,
 				56EC2A0120237BAF00924B5D /* GoogleService-Info.plist in Resources */,
+				D83747B02257807100A39CC0 /* lunch.jpg in Resources */,
 				56F25B942022E79800B246D3 /* Assets.xcassets in Resources */,
+				D8089DE4225AA334008966EE /* user2.png in Resources */,
 				56F25B922022E79800B246D3 /* Main.storyboard in Resources */,
+				D8089DE0225AA2A8008966EE /* navigate.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,7 +533,7 @@
 				INFOPLIST_FILE = navigatAR/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = club.micdsprogramming.navigatAR;
+				PRODUCT_BUNDLE_IDENTIFIER = club.hallamprogramming.navigatAR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -527,7 +551,7 @@
 				INFOPLIST_FILE = navigatAR/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = club.micdsprogramming.navigatAR;
+				PRODUCT_BUNDLE_IDENTIFIER = club.hallamprogramming.navigatAR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

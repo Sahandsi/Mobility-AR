@@ -1,10 +1,4 @@
-//
-//  AdminViewController.swift
-//  navigatAR
-//
-//  Created by Jack Cai on 2/2/18.
-//  Copyright © 2018 MICDS Programming. All rights reserved.
-//
+
 
 import Firebase
 import UIKit

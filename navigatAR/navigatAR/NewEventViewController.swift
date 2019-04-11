@@ -1,10 +1,4 @@
-//
-//  NewEventViewController.swift
-//  navigatAR
-//
-//  Created by Migala, Alex on 2/17/18.
-//  Copyright © 2018 MICDS Programming. All rights reserved.
-//
+
 
 import Eureka
 import Firebase

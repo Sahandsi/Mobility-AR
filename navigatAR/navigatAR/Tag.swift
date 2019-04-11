@@ -1,9 +1,4 @@
-//
-//  Tag.swift
-//  CodableFirebase
-//
-//  Created by Nick Clifford on 2/4/18.
-//
+
 
 enum Tag: Codable {
 	case string(String)
@@ -26,7 +21,6 @@ enum Tag: Codable {
 		} else if let nums = try? value.decode(FirebaseArray<Int>.self) {
 			self = .multipleNumbers(nums)
 		} else {
-			// Should never happen, but just to make the compiler happy (and I don't want to bother with throwing an error)
 			self = .string("")
 		}
 	}

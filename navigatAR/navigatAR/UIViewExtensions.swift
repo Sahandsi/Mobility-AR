@@ -1,10 +1,4 @@
-//
-//  UIViewExtensions.swift
-//  navigatAR
-//
-//  Created by Michael Gira on 2/4/18.
-//  Copyright © 2018 MICDS Programming. All rights reserved.
-//
+
 
 import Foundation
 import UIKit

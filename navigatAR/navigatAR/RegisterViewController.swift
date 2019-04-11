@@ -1,23 +1,20 @@
-//
-//  RegisterViewController.swift
-//  navigatAR
-//
-//  Created by Nick Clifford on 2/16/18.
-//  Copyright © 2018 MICDS Programming. All rights reserved.
-//
+
 
 import CodableFirebase
 import Eureka
 import Firebase
 
 class RegisterViewController: FormViewController {
+     @IBOutlet weak var errorLabel: UILabel!
+    
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		
+        
+        
 		form +++ Section("Register")
 			<<< EmailRow("email") { row in
 				row.title = "Email"
-				row.placeholder = "bob@example.com"
+				row.placeholder = "jobs@example.com"
 			}
 			<<< PasswordRow("password") { row in
 				row.title = "Password"
@@ -48,6 +45,11 @@ class RegisterViewController: FormViewController {
 		Auth.auth().createUser(withEmail: email, password: password) { (user, error) in
 			guard let user = user else {
 				print("error signing up somehow", error!) // TODO: properly handle error
+                let alert = UIAlertController(title: "Email already exists", message: "This email is already exists please login.", preferredStyle: .alert)
+                
+                alert.addAction(UIAlertAction(title: "Dismiss", style: .cancel, handler: nil))
+                
+                self.present(alert, animated: true)
 				return
 			}
 			

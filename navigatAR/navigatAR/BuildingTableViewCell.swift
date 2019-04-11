@@ -1,10 +1,4 @@
-//
-//  BuildingTableViewCell.swift
-//  navigatAR
-//
-//  Created by Jack Cai on 2/19/18.
-//  Copyright © 2018 MICDS Programming. All rights reserved.
-//
+
 
 import UIKit
 

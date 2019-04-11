@@ -1,10 +1,4 @@
-//
-//  UpsertTagViewController.swift
-//  navigatAR
-//
-//  Created by Michael Gira on 2/3/18.
-//  Copyright © 2018 MICDS Programming. All rights reserved.
-//
+
 
 import CodableFirebase
 import Eureka

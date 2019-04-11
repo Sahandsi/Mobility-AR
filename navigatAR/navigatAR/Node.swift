@@ -1,10 +1,3 @@
-//
-//  Node.swift
-//  navigatAR
-//
-//  Created by Nick Clifford on 2/2/18.
-//  Copyright © 2018 MICDS Programming. All rights reserved.
-//
 
 enum NodeType: String, Codable {
 	// Generic stuff
@@ -14,9 +7,11 @@ enum NodeType: String, Codable {
 	case pathway
 	case bathroom
 	case printer
-	case fountain
+	case waterFountain
 	case room
-	case sportsVenue
+	case cafe
+    case elevator
+    case door
 	
 	// TODO: add more types if necessary
 }

@@ -1,10 +1,4 @@
-//
-//  NodesConnectionViewController.swift
-//  navigatAR
-//
-//  Created by Jack Cai on 2/10/18.
-//  Copyright © 2018 MICDS Programming. All rights reserved.
-//
+
 
 import UIKit
 import MapKit
@@ -13,13 +7,15 @@ import Firebase
 import CodableFirebase
 
 let nodeTypeToEmoji: [NodeType : String] = [
-	.pointOfInterest : "🧐",
+	.pointOfInterest : "⭐️",
 	.pathway : "🛣",
 	.printer : "🖨",
-	.fountain : "⛲️",
+	.waterFountain : "⛲️",
 	.room : "🏡",
-	.sportsVenue : "🎾",
-	.bathroom : "🚻"
+	.cafe : "🍽",
+	.bathroom : "🚻",
+    .elevator : "⬆️",
+    .door:"🚪"
 ]
 
 // Blue dot annotation class
@@ -371,10 +367,10 @@ class NodesConnectionViewController: UIViewControllerWithBuilding, IALocationMan
 			}
 			currentCircle?.coordinate = newLocation
 			
-			//map.remove(circle as MKOverlay)
-			//circle = MKCircle(center: newLocation, radius: 1)
-			//map.add(circle)
-			
+//            map.remove(circle as MKOverlay)
+//            circle = MKCircle(center: newLocation, radius: 1)
+//            map.add(circle)
+			//exp2
 			if updateCamera {
 				// Ask Map Kit for a camera that looks at the location from an altitude of 300 meters above the eye coordinates.
 				camera = MKMapCamera(lookingAtCenter: (l.location?.coordinate)!, fromEyeCoordinate: (l.location?.coordinate)!, eyeAltitude: 300)
@@ -570,20 +566,21 @@ class NodeCircle {
 		ref = db
 	}
 
-//	func touched(_ touched: Bool) {
-//		if touched {
-//			// change node point style
-//			self.touched = true
-//			map.removeAnnotation(MKAnnotation)
-//			MKAnnotation.radius = 50
-//			map.addAnnotation(MKAnnotation)
-//		} else {
-//			self.touched = false
-//			map.removeAnnotation(MKAnnotation)
-//			MKAnnotation.radius = 50
-//			map.addAnnotation(MKAnnotation)
-//		}
-//	}
+//    func touched(_ touched: Bool) {
+//        if touched {
+//            // change node point style
+//            self.touched = true
+//            map.removeAnnotation(MKAnnotation)
+//            MKAnnotation.radius = 50
+//            map.addAnnotation(MKAnnotation)
+//        } else {
+//            self.touched = false
+//            map.removeAnnotation(MKAnnotation)
+//            MKAnnotation.radius = 50
+//            map.addAnnotation(MKAnnotation)
+//        }
+//    }
+
 	
 	static func getNodeCircles(from ref: DatabaseReference, map: MKMapView, buildingId: String, callback: @escaping (_ nodes: [NodeCircle]) -> Void) -> Void {
 		// Only query WWT nodes
@@ -665,7 +662,5 @@ class NodeCircle {
 		ref.updateChildValues(["/nodes/\(self.nodeInfo.0)/connectedTo": connectionDictionary])
 	}
 
-//	func updateDBConnection() {
-//
-//	}
+
 }

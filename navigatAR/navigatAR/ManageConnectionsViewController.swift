@@ -1,10 +1,4 @@
-////
-////  ManageConnectionsViewController.swift
-////  navigatAR
-////
-////  Created by Jack Cai on 2/20/18.
-////  Copyright © 2018 MICDS Programming. All rights reserved.
-////
+
 //
 //import UIKit
 //import GoogleMaps

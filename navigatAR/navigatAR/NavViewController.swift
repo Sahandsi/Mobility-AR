@@ -1,10 +1,4 @@
-//
-//  NavViewController.swift
-//  navigatAR
-//
-//  Created by Michael Gira on 2/1/18.
-//  Copyright © 2018 MICDS Programming. All rights reserved.
-//
+
 
 import UIKit
 import SceneKit
@@ -16,6 +10,9 @@ import FuzzyMatchingSwift
 import GameplayKit
 import HCKalmanFilter
 import CoreLocation
+
+
+
 
 class NavViewController: UIViewController, ARSCNViewDelegate, UITableViewDataSource, UISearchBarDelegate, UITableViewDelegate, IALocationManagerDelegate, CLLocationManagerDelegate, LocationDelegate {
 	
@@ -561,6 +558,10 @@ class NavViewController: UIViewController, ARSCNViewDelegate, UITableViewDataSou
 			childNode.removeFromParentNode()
 		}
 	}
+    
+    
+    
+    
 	
 }
 

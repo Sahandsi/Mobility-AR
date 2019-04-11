@@ -1,10 +1,4 @@
-//
-//  Searching.swift
-//  navigatAR
-//
-//  Created by Migala, Alex on 2/8/18.
-//  Copyright © 2018 MICDS Programming. All rights reserved.
-//
+
 
 import Foundation
 
